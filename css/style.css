@@ -104,21 +104,22 @@ ul li a{
 }
 
 .noticiaemdestaque{
-    padding-bottom: 2%;
     background-color: white;
-    padding-left: 50px;
     display: flex;
+    width:100%;
+    text-align: center;
+    margin:auto; 
 }
 
 
 .nacional {
     color: rgb(71, 71, 250);
-    padding-left: 20px;
+    padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 15%;
+    width:50%;
     text-decoration: none;
     text-transform: none;
-    margin-left: 8%;
+ 
 }
 
 .nacional h4{
@@ -131,6 +132,7 @@ ul li a{
 .nacional img {
     width: 600px;
     height: 300px;
+    margin: 10px 22px;
 }
     
 .nacional a {
@@ -138,20 +140,27 @@ ul li a{
     color:darkorange;
     font-size: 20px;
     font-weight: bold;
-    padding-left: 10px;
     text-decoration: none;
+    text-align: left;
+    padding-left:30px;
+    
 }
    
 .nacional p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    padding-left: 10px;
+    margin: 0;
+    width:80%;
+    padding-left:30px;
+    text-align:left;
 }
     
 .solidariedade {
     color: rgb(71, 71, 250);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-right: 10%;
+    padding:20px;
+    width:100%;
+    margin:auto;
     text-decoration: none; 
 }
 
@@ -163,25 +172,29 @@ ul li a{
 }
   
 .solidariedade img {
-    width: 600px;
+    width: 580px;
     height: 300px;
-    padding-right: 20px;
+    margin: 10px 10px;
 }
     
 .solidariedade a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:darkorange;
+    text-align:left;
+    padding-left:30px;
     font-size: 20px;
     font-weight: bold;
-    padding-left: 10px;
     text-decoration: none;
 }
    
 .solidariedade p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    text-align: justify;
-    padding-left: 10px;
+    margin: 0;
+    width:80%;
+    text-align: left;
+    padding-left:30px;
+   
 }   
 
 .noticiasocial {
@@ -195,9 +208,10 @@ ul li a{
    
 }
     
-/*.nacional h2 a {
-   text-decoration: unset;
- }*/
+.social{
+    width:60%;
+    margin-right:30 px;
+}
     
 .social h4 {
     color: rgb(71, 71, 250);
@@ -217,6 +231,7 @@ ul li a{
     
 .social p {
     color: black;
+    margin-right:30px;
 }
     
 .videosocial {
@@ -228,21 +243,22 @@ ul li a{
 .conteudo {
     padding-bottom: 2%;
     background-color: white;
-    padding-left: 50px;
     display: flex;
+    text-align:center;
+    padding: 20px 10px 50px 10px;
 }
     
 .educacao {
     color: rgb(71, 71, 250);
-    padding-left: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width:70%;
     text-decoration: none;
-    margin-left: 4%;
 }
     
 .educacao h4 {
     padding-left: 10px;
+    margin-left:20px;
+    text-align:left;
     font-size:25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -255,8 +271,7 @@ ul li a{
 .educacao p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    text-align: justify;
-    width:70%;
+    text-align: center;
 }
     
 .educacao a {
@@ -270,7 +285,6 @@ ul li a{
     
 .qualidadedevida {
     color: rgb(71, 71, 250);
-    padding-left: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width:70%;
     text-decoration: none;
@@ -278,6 +292,8 @@ ul li a{
     
 .qualidadedevida h4 {
     padding-left: 10px;
+    margin-left:20px;
+    text-align:left;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -285,14 +301,12 @@ ul li a{
 .qualidadedevida img {
     width: 400px;
     height: 300px;
-    padding-right: 20px;
 }
     
 .qualidadedevida p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    text-align: justify;
-    width:70%;
+    text-align: center;
 }
     
 .qualidadedevida a {
@@ -306,7 +320,6 @@ ul li a{
     
 .saude {
     color: rgb(71, 71, 250);
-    padding-left: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width:70%;
     text-decoration: none;
@@ -314,6 +327,8 @@ ul li a{
     
 .saude h4 {
     padding-left: 10px;
+    text-align:left;
+    margin-left:20px;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -321,14 +336,12 @@ ul li a{
 .saude img {
     width: 400px;
     height: 300px;
-    padding-right: 20px;
 }
     
 .saude p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    text-align: justify;
-    width:70%;
+    text-align: center;
 }
     
 .saude a {
@@ -354,7 +367,7 @@ ul li a{
     
     .quemsomos h1{
         margin: 10px auto;
-    
+
     }
 
     .introducao {
@@ -376,7 +389,6 @@ ul li a{
         background-color:white;
         padding: 2rem;
         display: flex;
-        justify-content: space-between;
         align-items: center;
     }
 
@@ -384,74 +396,76 @@ ul li a{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem;
         text-align: center;
-        margin-left: 5rem;
-        margin-right: 8rem;
+        padding-right:30px;
+    
     }
 
     .domingos img {
         width: 300px;
         height: 300px;
         border-radius: 60%;
+        padding-left:30px;
     }
 
     .nomedomingos{
-        text-align: center;
+        text-align: left;
+        padding-left:30px;
     }
 
     .nomedomingos img{
         border-radius: 0%;
-        width: 80px;
-        height: 80px;
+        width: 40px;
+        height: 40px;
+        padding-left:20px;
     }
 
     .nomedomingos h1{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left:30px;
     }
     
     .botao {
-        margin-right: 200px;
+       padding-left:30px;
     }
     
     .pessoa2 {
-        background-color:whitesmoke;
+        background-color:white;
         padding: 2rem;
         display: flex;
-        justify-content: space-between;
-
         align-items: center;
     }
-
-    .nomesobral{
-        text-align: center;
-    }
-
-    .nomesobral img{
-        border-radius: 0%;
-        width: 80px;
-        height: 80px;
-    }
-
-    .nomesobral h1{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    
-    .sobral img {
-        width: 300px;
-        height: 300px;
-        border-radius: 60%;
-    }
-
 
     .sobral {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem;
         text-align: center;
-        margin-left: 5rem;
-        margin-right: 8rem;
+        padding-right:30px;
+    }
+
+    .sobral img {
+        width: 300px;
+        height: 300px;
+        border-radius: 60%;
+        padding-left:30px;
+    }
+
+    .nomesobral{
+        text-align: left;
+        padding-left:30px;
+    }
+
+    .nomesobral img{
+        border-radius: 0%;
+        width: 40px;
+        height: 40px;
+        padding-left:20px;
+    }
+
+    .nomesobral h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left:30px;
     }
 
     
@@ -459,7 +473,6 @@ ul li a{
         background-color:white;
         padding: 2rem;
         display: flex;
-        justify-content: space-between;
         align-items: center;
     }
 
@@ -467,78 +480,79 @@ ul li a{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem;
         text-align: center;
-        margin-left: 5rem;
-        margin-right: 8rem;
+        padding-right:30px;
+    
     }
 
     .jorge img {
         width: 300px;
         height: 300px;
         border-radius: 60%;
+        padding-left:30px;
     }
 
     .nomejorge{
-        text-align: center;
+        text-align: left;
+        padding-left:30px;
     }
 
     .nomejorge img{
         border-radius: 0%;
-        width: 80px;
-        height: 80px;
+        width: 40px;
+        height: 40px;
+        padding-left:20px;
     }
 
     .nomejorge h1{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left:30px;
     }
-    
     
     .pessoa4 {
-        background-color:whitesmoke;
+        background-color:white;
         padding: 2rem;
         display: flex;
-        justify-content: space-between;
-
         align-items: center;
     }
-
-    .nomejuliana{
-        text-align: center;
-    }
-
-    .nomejuliana img{
-        border-radius: 0%;
-        width: 80px;
-        height: 80px;
-    }
-
-    .nomejuliana h1{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    
-    .juliana img {
-        width: 300px;
-        height: 300px;
-        border-radius: 60%;
-    }
-
 
     .juliana {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem;
         text-align: center;
-        margin-left: 5rem;
-        margin-right: 8rem;
+        padding-right:30px;
+    
+    }
+
+    .juliana img {
+        width: 300px;
+        height: 300px;
+        border-radius: 60%;
+        padding-left:30px;
+    }
+
+    .nomejuliana{
+        text-align: left;
+        padding-left:30px;
+    }
+
+    .nomejuliana img{
+        border-radius: 0%;
+        width: 40px;
+        height: 40px;
+        padding-left:20px;
+    }
+
+    .nomejuliana h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left:30px;
     }
     
     .pessoa5 {
         background-color:white;
         padding: 2rem;
         display: flex;
-        justify-content: space-between;
         align-items: center;
     }
 
@@ -546,32 +560,35 @@ ul li a{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem;
         text-align: center;
-        margin-left: 5rem;
-        margin-right: 8rem;
+        padding-right:30px;
     }
 
     .sidney img {
         width: 300px;
         height: 300px;
         border-radius: 60%;
+        padding-left:30px;
     }
 
     .nomesidney{
-        text-align: center;
+        text-align: left;
+        padding-left:30px;
     }
 
     .nomesidney img{
         border-radius: 0%;
-        width: 80px;
-        height: 80px;
+        width: 40px;
+        height: 40px;
+        padding-left:20px;
     }
 
     .nomesidney h1{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left:30px;
     }
-    
+
+ 
     /*********************************
             FIM - QUEM SOMOS
     **********************************/
@@ -659,7 +676,7 @@ ul li a{
         align-items: center;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 2%;
+        margin-bottom: 50px;
     }
 
     .nacional1 {
@@ -752,6 +769,97 @@ ul li a{
         padding-left: 10px;
         text-decoration: none;
     }
+
+    .educacao1 {
+        color: rgb(71, 71, 250);
+        padding-left: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width:70%;
+        text-decoration: none;
+        margin-left: 4%;
+    }
+        
+    .educacao1 h4 {
+        padding-left: 10px;
+        font-size:25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+        
+    .educacao1 p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        text-align: justify;
+        width:70%;
+    }
+        
+    .educacao1 a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:darkorange;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+        
+    .qualidadedevida1 {
+        color: rgb(71, 71, 250);
+        padding-left: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width:70%;
+        text-decoration: none;
+    }
+        
+    .qualidadedevida1 h4 {
+        padding-left: 10px;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+        
+    .qualidadedevida1 p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        text-align: justify;
+        width:70%;
+    }
+    
+    .qualidadedevida1 a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:darkorange;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+        
+    .saude1 {
+        color: rgb(71, 71, 250);
+        padding-left: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width:70%;
+        text-decoration: none;
+    }
+        
+    .saude1 h4 {
+        padding-left: 10px;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .saude1 p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        text-align: justify;
+        width:70%;
+    }
+        
+    .saude1 a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:darkorange;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 10px;
+        text-decoration: none;
+    }
     
 
     /*********************************
@@ -764,24 +872,14 @@ ul li a{
     
     .rodape {
         background-color: rgb(255, 94, 0);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: yellow;
-        display: flex;
+        display: flex; 
     }
 
-    .rodape-saibamais {
-        background-color: rgb(255, 94, 0);
+    .rodape h3{
+        font-size:16px;
+        font-weight:bold;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: yellow;
-        display: flex;
-        bottom: 0;
-        position: fixed;
-        width: 100%;
-        text-align: center;
-    }
-
-    .rodape-saibamais h3 {
-        margin: 10px auto;
+        color: white;
     }
     
     .rodape h3 {
@@ -797,19 +895,20 @@ ul li a{
     **********************************/
 
     .btn-contact{
-        background-color: rgb(255, 94, 0);
+        background-color: #0e76a8;
         border-radius: 10px;
         border: none;
         padding: 10px 20px;
         margin: 20px 0 50px 0;
         cursor: pointer;
         display:block;
+        color:white;
     }
 
     .btn-contact:hover{
         font-size: 20px;
         transition:0.2s;
-        background-color:orange;
+        background-color:darkblue;
         padding: 15px 30px;
         
     }
