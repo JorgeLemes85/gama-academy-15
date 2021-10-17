@@ -1,0 +1,833 @@
+body {
+    background-color:whitesmoke;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    display:inline-flex;
+    margin:10px 10px 0 30px;
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    padding:15px;
+}
+ 
+
+.cabecalho{
+    background-color: rgb(255, 94, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1{
+    color:yellow;
+    margin-left:25px;
+    font-size:50px;
+    padding:0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: unset;
+}
+
+.ul menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: auto 5px;
+    font-weight: 10px;
+    padding-right: 10px;  
+}
+
+ul {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: auto 5px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+ul li{
+    display: inline-block;
+    line-height:80px;
+    margin:0 10px;
+    text-decoration:none;
+}
+
+ul li a{
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform:none;
+    text-decoration:none;
+}
+
+
+.news {
+    color:white;
+    background-color: rgb(17, 17, 160);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding: 10px auto;
+}
+
+.news h1{
+    margin: 10px auto;
+}
+
+.introducao {
+    padding:20px 20px;
+}
+
+.introducao p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size:16px;
+}
+
+.introducao h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+.destaque {
+    color: orangered;
+    padding-left: 20px;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+.noticiaemdestaque{
+    padding-bottom: 2%;
+    background-color: white;
+    padding-left: 50px;
+    display: flex;
+}
+
+
+.nacional {
+    color: rgb(71, 71, 250);
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15%;
+    text-decoration: none;
+    text-transform: none;
+    margin-left: 8%;
+}
+
+.nacional h4{
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;   
+}
+    
+.nacional img {
+    width: 600px;
+    height: 300px;
+}
+    
+.nacional a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkorange;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    text-decoration: none;
+}
+   
+.nacional p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding-left: 10px;
+}
+    
+.solidariedade {
+    color: rgb(71, 71, 250);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 10%;
+    text-decoration: none; 
+}
+
+    
+.solidariedade h4{
+    padding-left: 10px;
+    font-size: 25px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+.solidariedade img {
+    width: 600px;
+    height: 300px;
+    padding-right: 20px;
+}
+    
+.solidariedade a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkorange;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    text-decoration: none;
+}
+   
+.solidariedade p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: justify;
+    padding-left: 10px;
+}   
+
+.noticiasocial {
+    color: rgb(71, 71, 250);
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    margin: 50px 50px; 
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+   
+}
+    
+/*.nacional h2 a {
+   text-decoration: unset;
+ }*/
+    
+.social h4 {
+    color: rgb(71, 71, 250);
+    font-size:25px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.social h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkorange;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    text-decoration: none;
+}
+    
+.social p {
+    color: black;
+}
+    
+.videosocial {
+    padding-top: 20px;
+    width: 800px;
+    height: 300px;
+}
+    
+.conteudo {
+    padding-bottom: 2%;
+    background-color: white;
+    padding-left: 50px;
+    display: flex;
+}
+    
+.educacao {
+    color: rgb(71, 71, 250);
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:70%;
+    text-decoration: none;
+    margin-left: 4%;
+}
+    
+.educacao h4 {
+    padding-left: 10px;
+    font-size:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+.educacao img {
+    width: 400px;
+    height: 300px;
+}
+    
+.educacao p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: justify;
+    width:70%;
+}
+    
+.educacao a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkorange;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    text-decoration: none;
+}
+    
+.qualidadedevida {
+    color: rgb(71, 71, 250);
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:70%;
+    text-decoration: none;
+}
+    
+.qualidadedevida h4 {
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+.qualidadedevida img {
+    width: 400px;
+    height: 300px;
+    padding-right: 20px;
+}
+    
+.qualidadedevida p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: justify;
+    width:70%;
+}
+    
+.qualidadedevida a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkorange;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    text-decoration: none;
+}
+    
+.saude {
+    color: rgb(71, 71, 250);
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:70%;
+    text-decoration: none;
+}
+    
+.saude h4 {
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.saude img {
+    width: 400px;
+    height: 300px;
+    padding-right: 20px;
+}
+    
+.saude p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: justify;
+    width:70%;
+}
+    
+.saude a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkorange;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+/*********************************
+            INICIO - QUEM SOMOS
+    **********************************/
+
+    .quemsomos {
+        color:white;
+        background-color: rgb(17, 17, 160);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        padding: 10px auto;
+    }
+    
+    .quemsomos h1{
+        margin: 10px auto;
+    
+    }
+
+    .introducao {
+        padding:20px 20px;
+    }
+    
+    .introducao p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: justify;
+        font-size:16px;
+    }
+    
+    .introducao h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+    
+    .pessoa1 {
+        background-color:white;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .domingos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        text-align: center;
+        margin-left: 5rem;
+        margin-right: 8rem;
+    }
+
+    .domingos img {
+        width: 300px;
+        height: 300px;
+        border-radius: 60%;
+    }
+
+    .nomedomingos{
+        text-align: center;
+    }
+
+    .nomedomingos img{
+        border-radius: 0%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .nomedomingos h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .botao {
+        margin-right: 200px;
+    }
+    
+    .pessoa2 {
+        background-color:whitesmoke;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+
+        align-items: center;
+    }
+
+    .nomesobral{
+        text-align: center;
+    }
+
+    .nomesobral img{
+        border-radius: 0%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .nomesobral h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .sobral img {
+        width: 300px;
+        height: 300px;
+        border-radius: 60%;
+    }
+
+
+    .sobral {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        text-align: center;
+        margin-left: 5rem;
+        margin-right: 8rem;
+    }
+
+    
+    .pessoa3 {
+        background-color:white;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .jorge {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        text-align: center;
+        margin-left: 5rem;
+        margin-right: 8rem;
+    }
+
+    .jorge img {
+        width: 300px;
+        height: 300px;
+        border-radius: 60%;
+    }
+
+    .nomejorge{
+        text-align: center;
+    }
+
+    .nomejorge img{
+        border-radius: 0%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .nomejorge h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    
+    .pessoa4 {
+        background-color:whitesmoke;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+
+        align-items: center;
+    }
+
+    .nomejuliana{
+        text-align: center;
+    }
+
+    .nomejuliana img{
+        border-radius: 0%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .nomejuliana h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .juliana img {
+        width: 300px;
+        height: 300px;
+        border-radius: 60%;
+    }
+
+
+    .juliana {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        text-align: center;
+        margin-left: 5rem;
+        margin-right: 8rem;
+    }
+    
+    .pessoa5 {
+        background-color:white;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sidney {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        text-align: center;
+        margin-left: 5rem;
+        margin-right: 8rem;
+    }
+
+    .sidney img {
+        width: 300px;
+        height: 300px;
+        border-radius: 60%;
+    }
+
+    .nomesidney{
+        text-align: center;
+    }
+
+    .nomesidney img{
+        border-radius: 0%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .nomesidney h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    /*********************************
+            FIM - QUEM SOMOS
+    **********************************/
+
+    /*********************************
+            INICIO - CONTATO
+    **********************************/
+
+    .contato {
+        color:white;
+        background-color: rgb(17, 17, 160);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        padding: 10px auto;
+    }
+    
+    .contato h1{
+        margin: 10px auto;
+    }
+
+    .introducao {
+        padding:20px 20px;
+    }
+    
+    .introducao p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: justify;
+        font-size:16px;
+    }
+    
+    .introducao h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+
+    .introducao h4 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: blue;
+    }
+
+    .formulario {
+        padding-left: 10%;
+        margin-bottom: 2%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        display:table-cell;
+        
+    }
+        
+    .formulario h4 a{
+        margin-right: 95%;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;        
+    }
+    
+
+    /*********************************
+            FIM - CONTATO
+    **********************************/
+    /*********************************
+            INICIO - SAIBA MAIS
+    **********************************/
+
+    .saibamais {
+        color:white;
+        background-color: rgb(17, 17, 160);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        padding: 10px auto;
+    }
+    
+    .saibamais h1{
+        margin: 10px auto;
+    }
+    
+    .n1 {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2%;
+    }
+    
+    .n2 {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2%;
+    }
+
+    .nacional1 {
+        color: rgb(71, 71, 250);
+        padding-left: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width:70%;
+        text-decoration: none;
+        margin-left: 4%;
+    }
+        
+    .nacional1 h4 {
+        padding-left: 10px;
+        font-size:25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+        
+    .nacional1 p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        text-align: justify;
+        width:70%;
+    }
+        
+    .nacional1 a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:darkorange;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+        
+    .solidariedade1 {
+        color: rgb(71, 71, 250);
+        padding-left: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width:70%;
+        text-decoration: none;
+    }
+        
+    .solidariedade1 h4 {
+        padding-left: 10px;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+        
+    .solidariedade1 p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        text-align: justify;
+        width:70%;
+    }
+    
+    .solidariedade1 a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:darkorange;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+        
+    .social1 {
+        color: rgb(71, 71, 250);
+        padding-left: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width:70%;
+        text-decoration: none;
+    }
+        
+    .social1 h4 {
+        padding-left: 10px;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .social1 p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        text-align: justify;
+        width:70%;
+    }
+        
+    .social1 a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:darkorange;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+    
+
+    /*********************************
+            FIM - SAIBA MAIS
+    **********************************/
+
+    /*********************************
+            INICIO - RODAPÉ
+    **********************************/
+    
+    .rodape {
+        background-color: rgb(255, 94, 0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: yellow;
+        display: flex;
+    }
+
+    .rodape-saibamais {
+        background-color: rgb(255, 94, 0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: yellow;
+        display: flex;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+    }
+
+    .rodape-saibamais h3 {
+        margin: 10px auto;
+    }
+    
+    .rodape h3 {
+        margin: 10px auto;
+    }
+    
+    /*********************************
+            FIM - RODAPÉ
+    **********************************/
+
+    /*********************************
+            INICIO - BOTÃO
+    **********************************/
+
+    .btn-contact{
+        background-color: rgb(255, 94, 0);
+        border-radius: 10px;
+        border: none;
+        padding: 10px 20px;
+        margin: 20px 0 50px 0;
+        cursor: pointer;
+        display:block;
+    }
+
+    .btn-contact:hover{
+        font-size: 20px;
+        transition:0.2s;
+        background-color:orange;
+        padding: 15px 30px;
+        
+    }
+
+    .btn-contact a{
+        color: white;
+        text-decoration: none;
+        text-transform:none;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    /*********************************
+            FIM - BOTÃO
+    **********************************/
+    
+    
+    
+    
+    
